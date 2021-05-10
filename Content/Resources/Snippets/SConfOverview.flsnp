@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Solstice Conference is a software-enabled capability that enhances video conferencing with rich, multi-participant content sharing to deliver a better collaboration experience between onsite and remote users. Solstice Conference paired with room audio/video devices delivers the convenience of a traditional room system with the flexibility to use any conferencing service installed on the meeting host’s laptop.</p>
+        <p>Solstice Conference allows you to use Solstice with most laptop-based conferencing apps to add meeting support for remote attendees in Solstice-enabled rooms. Solstice Conference offers the flexibility to use the conferencing service of choice and provides wireless connectivity to room audio/video devices attached to the Solstice Pod via USB. <MadCap:conditionalText MadCap:conditions="Default.NotforEndUser">Solstice Conference can be enabled  for all Gen3 Pods on the latest version of Solstice. A current Solstice Subscription is needed to utilize the Solstice Conference capabilities. </MadCap:conditionalText></p>
+    </body>
+</html>

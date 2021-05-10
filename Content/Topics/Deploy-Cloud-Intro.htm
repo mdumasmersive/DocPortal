@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\Resources\MasterPages\OtherTopics.flmsp');">
+    <head>
+    </head>
+    <body>
+        <h1>Step 1:&#160;Solstice Setup </h1>
+        <p>The Solstice Pod leverages existing TCP/IP-based networking. Since the Solstice Pod is a network-attached device, IT administration and Network Security should be involved in designing an appropriate deployment. </p>
+        <p>Before you deploy Solstice, it is recommended that you read the information below and ensure your network meets the necessary requirements. </p>
+        <p class="tip">For security-conscious environments, initial configurations for each of your Pods can take place on a standalone network prior to being deployed on your enterprise network. This will ensure that your Pods are configured to be secure before being attached to your network. </p>
+        <h2>System Components</h2>
+        <p>Physical setup and configuration of a Solstice-enabled room is straightforward. The system only requires a few components. </p>
+        <ul>
+            <li><b>Solstice Pod.</b> The Solstice Pod is a network-attached wireless collaboration device that is connected to up to two display monitors.</li>
+            <li style="font-weight: normal;"><b>USB room camera and/or USB&#160;microphone (optional).</b>  To enable your Solstice room to support video conferences with <a href="Solstice-Conference-Introduction.htm">Solstice Conference</a>, you can attach a USB room camera and/or microphone to the Solstice Pod via USB. </li>
+            <li>
+                <p><b>User devices.</b> These devices are brought to the room by users attending the collaboration session and are used to share content to the Solstice display. User devices can share to the Solstice display using the Solstice app, or any of our app-free sharing options (AirPlay, Miracast, browser-based sharing, HDMI&#160;input). </p>
+            </li>
+            <li><b>Solstice app.</b> The Solstice app is installed on user devices and is used to share and control on the Solstice display. </li>
+            <li style="font-weight: normal;"><b>Ethernet (recommended).</b> Mersive recommends connecting your Pods to Ethernet for best performance. However, the Solstice Pod can be connected to Ethernet, a wireless network, and up to 3 VLANs simultaneously. </li>
+            <li style="font-weight: normal;"><b>Display monitors.</b> The Solstice Pod can be connected to up to two display monitors via HDMI. </li>
+        </ul>
+        <h3>Sample Room Setup Diagram</h3>
+        <p>
+            <img src="../Resources/Images/quickstart_diagram.png" style="width: 511px;height: 317px;" />
+        </p>
+        <h2>Physical Setup Tips</h2>
+        <p>Because the Pod does not store user credential information, unencrypted passwords, or users’ data that has been shared to the display, the physical Pods do not have to be located in secure locations. However, other considerations related to theft and environmental conditions should be considered.</p>
+        <ul>
+            <li>Solstice supports plug-and-plug USB&#160;devices. Devices, such as room cameras, should be connected to the Pod via USB and must be in-room. <a href="Solstice-Conference-Supported-Peripherals.htm">View list of supported devices.</a> Note:&#160;DSPs and other processing hubs may not be compatible and should be avoided. </li>
+            <li>Display monitors must be directly connected to a Solstice Pod through HDMI video cables. If using a single display monitor, Mersive recommends connecting the display monitor to the inner HDMI&#160;port. </li>
+            <li>
+                <MadCap:snippetText src="../Resources/Snippets/AudioOut.flsnp" />
+            </li>
+        </ul>
+        <h1>Network Requirements</h1>
+        <p>Solstice uses all TCP/IP standard network traffic to communicate across all the required and optional components of the Solstice system. The network(s) that Solstice is ultimately deployed on needs to allow peer-to-peer TCP connections. Additionally, for enterprise networks, firewall exceptions may need to be made and network ports may need to be open to allow certain Solstice capabilities to function. </p>
+        <h3>Firewall Exceptions</h3>
+        <MadCap:snippetBlock src="../Resources/Snippets/OpenNetworkSites.flsnp" />
+        <h3>Open Network&#160;Ports</h3>
+        <p>Depending on which features your end-users will utilize, certain network ports/routes must be open for Solstice and those features to work correctly.  Click the drop-downs below to view the full list of Solstice network ports used.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot style="font-weight: bold;">TCP Ports</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../Resources/Snippets/OpenPortsTCP.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot style="font-weight: bold;">UDP Ports</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../Resources/Snippets/OpenPortsUDP.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <h3 MadCap:conditions="Default.ScreenOnly">Next Step</h3>
+        <p MadCap:conditions="Default.ScreenOnly"><a href="Deploy-Cloud-Import-Pods.htm">Step 2: Import Pods into Solstice Cloud </a>
+        </p>
+    </body>
+</html>
