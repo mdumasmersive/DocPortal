@@ -38,4 +38,8 @@
     BackgroundColor="#ff00ff"
     Name="5_3_only"
     Comment="" />
+  <ConditionTag
+    BackgroundColor="#2f4f4f"
+    Name="NewDevices"
+    Comment="" />
 </CatapultConditionTagSet>
