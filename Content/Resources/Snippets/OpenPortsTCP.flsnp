@@ -4,7 +4,7 @@
     </head>
     <body>
         <ul>
-            <li><b>7</b>: Used for gateway check. </li>
+            <li><b>7</b>: Used for gateway check (feature deprecated starting in Solstice 5.3.2). </li>
             <li><b>80 and 443</b>: Used if the Solstice host is allowed to connect to the internet for license activation and software upgrades. When pushing a local update file to the Pod, these ports need to be open between the Pod and the Dashboard. These ports are also used by the OpenControl API to interface with 3rd party systems. When network encryption is enabled, the Solstice Dashboard will send SLR updates via port 443. </li>
             <p class="note">If you are using a Solstice Pod or Solstice Dashboard on 4.1 or higher, communication to Mersive's license server will only occur over https/port 443.</p>
             <li><b>6443</b>: Used for browser-based sharing connections. </li>
