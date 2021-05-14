@@ -2,8 +2,7 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Solstice Setup"
-    Link="/Content/Topics/Deploy-Solstice-Setup.htm" />
+    Title="Solstice Setup" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/Pages/Deploy-Solstice.htm"></TocEntry>

@@ -31,7 +31,13 @@
                 </ul>
                 <h4>Important Notes for 5.3.2</h4>
                 <ul>
-                    <li>The Gateway Check functionality  has been deprecated as of 5.3.2 as it is no longer needed by Solstice Pods and to resolve issues that were being caused by this feature. As a note, this setting is still visible but the underlying functionality has been disabled; however, this setting will be fully removed in an upcoming release. For Solstice Cloud administrators, Mersive recommends disabling this setting on any Pods or applied Advanced templates before upgrading to 5.3.2. Solstice administrators who are unable to upgrade to 5.3.2 should ensure this setting is disabled across their Solstice deployment (Solstice Dashboard &gt;&#160;Network tab, or Solstice Cloud &gt;&#160;Advanced template). </li>
+                    <li>The Gateway Check functionality  has been deprecated as of 5.3.2 as it is no longer needed by Solstice Pods and to resolve issues that were being caused by this feature. As a note, this setting is still visible but the underlying functionality has been disabled; however, this setting will be fully removed in an upcoming release. </li>
+                    <li>
+                        <p>If a user has a previous version of the Solstice app and Solstice Conference drivers installed, they must uninstall the Solstice app and Solstice Conference drivers before upgrading their Solstice app to the current 5.3.2 version. Otherwise, users may experience multiple reboots during the upgrade process.</p>
+                    </li>
+                    <li>
+                        <p>Similarly, if a user machine has a previous version of the Solstice app and Solstice Conference drivers installed, admins centrally upgrading Solstice apps to version 5.3.2 via MSI, or uninstalling a previous version of the Solstice app via MSI, will first need to remotely reboot the user machine . <a href="https://documentation.mersive.com/content/topics/admin-msi-instuctions.htm">Learn More</a></p>
+                    </li>
                 </ul>
                 <h4>Availability and Requirements of Software Updates</h4>
                 <p>Solstice 5.3.2 software upgrades are available for the following components of the Solstice product suite:</p>
