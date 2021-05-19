@@ -11,7 +11,7 @@
 			<ul><li>manager.flexnetoperations.com</li></ul></li>
             <li>To detect captive portals, Solstice may periodically attempt a connection to:
 						<ul><li>clients3.google.com/generate_204</li></ul><p class="note">Captive portal checks can be turned off as of Solstice version 5.3.</p></li>
-            <li>If you utilize a tool that limits program access, such as an anti-virus program or device management services, you will need to whitelist the Solstice App.</li>
         </ul>
+        <p>&#160;</p>
     </body>
 </html>

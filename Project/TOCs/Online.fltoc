@@ -11,6 +11,9 @@
       Title="[%=System.LinkedTitle%]"
       Link="/Content/Topics/General-Solstice-Setup.htm"></TocEntry>
     <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Topics/Admin-Network-Ports.htm" />
+    <TocEntry
       Title="Deploy Solstice using Solstice Cloud"
       Link="/Content/Topics/Deploy-Cloud-Solstice-Setup.htm">
       <TocEntry
