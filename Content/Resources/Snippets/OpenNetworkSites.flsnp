@@ -12,6 +12,5 @@
             <li>To detect captive portals, Solstice may periodically attempt a connection to:
 						<ul><li>clients3.google.com/generate_204</li></ul><p class="note">Captive portal checks can be turned off as of Solstice version 5.3.</p></li>
         </ul>
-        <p>&#160;</p>
     </body>
 </html>

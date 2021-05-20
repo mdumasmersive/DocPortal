@@ -6,7 +6,6 @@
   Destinations=""
   ShowMadCapBacklink="false"
   GlossaryTermConversion="marked"
-  MasterToc="/Project/TOCs/Quickstart.fltoc"
   ConditionTagExpression="include[Default.Future], exclude[Default.Exclude or Default.PrintOnly]"
   MoveOutputContentToRoot="false">
   <PrintedOutput

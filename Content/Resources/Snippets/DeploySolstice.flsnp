@@ -3,23 +3,30 @@
     <body>
         <p>There are two key ways to get a standard Solstice deployment up and running: </p>
         <ul>
-            <li>Using <a href="../../Topics/Cloud-Introduction.htm">Solstice Cloud</a>, our secure cloud-based management portal.</li>
-            <li>Using <a href="../../Topics/Admin-GetStarted-Dashboard.htm">Solstice Dashboard</a>, our on-premises management tool, if you are unable to use Solstice Cloud. </li>
+            <li>Using Solstice Cloud, our secure cloud-based management portal.</li>
+            <li>Using Solstice Dashboard, our on-premises management tool, if you are unable to use Solstice Cloud. </li>
+        </ul>
+        <p>Before deploying Solstice, be sure to review the following topics:</p>
+        <ul>
+            <li><a href="../../Topics/General-Solstice-Introduction.htm">Solstice Overview</a>
+            </li>
+            <li><a href="../../Topics/General-Solstice-Setup.htm">Solstice Setup</a>
+            </li>
+            <li><a href="../../Topics/Admin-Network-Ports.htm">Network Requirements</a>
+            </li>
         </ul>
         <h2>Deploying Solstice Using Solstice Cloud (recommended)</h2>
         <p>Below are the recommended steps for getting a standard Solstice deployment up and running using Solstice Cloud, our secure cloud-based management portal.  </p>
         <ul>
-            <li><a href="../../Topics/General-Solstice-Setup.htm">Step 1: Solstice Setup</a>
+            <li><a href="../../Topics/Deploy-Cloud-Import-Pods.htm">Step 1: Import Pods into Solstice Cloud</a>
             </li>
-            <li><a href="../../Topics/Deploy-Cloud-Import-Pods.htm">Step 2: Import Pods into Solstice Cloud</a>
+            <li><a href="../../Topics/Deploy-Cloud-Templates.htm">Step 2: Create Base Configuration Templates</a>
             </li>
-            <li><a href="../../Topics/Deploy-Cloud-Templates.htm">Step 3: Create Base Configuration Templates</a>
+            <li><a href="../../Topics/Deploy-Cloud-Display-Discovery.htm">Step 3: Set Up Display Discovery</a>
             </li>
-            <li><a href="../../Topics/Deploy-Cloud-Display-Discovery.htm">Step 4: Set Up Display Discovery</a>
+            <li><a href="../../Topics/Deploy-Cloud-Apply-Templates.htm">Step 4: Apply Configuration Templates</a>
             </li>
-            <li><a href="../../Topics/Deploy-Cloud-Apply-Templates.htm">Step 5: Apply Configuration Templates</a>
-            </li>
-            <li><a href="../../Topics/Deploy-Cloud-Validate-Deployment.htm">Step 6: Validate Your Deployment</a>
+            <li><a href="../../Topics/Deploy-Cloud-Validate-Deployment.htm">Step 5: Validate Your Deployment</a>
             </li>
         </ul>
         <h2>Deploying Solstice Using Solstice Dashboard</h2>
