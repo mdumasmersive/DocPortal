@@ -10,8 +10,8 @@
         </ul>
         <p>If the programs are not listed, you can add the programs manually using the installation path of the Solstice client. Example installation paths are as follows:</p>
         <ul>
-            <li>SolsticeClientWin-5.3.2.exe: &#160;C:\Users\%username%\AppData\Local\Mersive\SolsticeClient</li>
-            <li>SolsticeClient-5.3.2.msi:&#160; C:\Program Files\Mersive Technologies, Inc\Solstice\Client</li>
+            <li>QuickConnect Client (downloaded from the Pod): &#160;C:\Users\%username%\AppData\Local\Mersive\SolsticeClient</li>
+            <li>MSI &amp; SCCM Installers:&#160; C:\Program Files\Mersive Technologies, Inc\Solstice\Client</li>
         </ul>
     </body>
 </html>
