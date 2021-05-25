@@ -5,45 +5,11 @@
     </head>
     <body>
         <h1>Digital Signage Template</h1>
-        <p>Solstice’s digital signage feature lets you extend HTML-based signage to Solstice displays when they are not being used for wireless collaboration. The custom displays will appear when the pod is not in use. You can add signage feeds to your Solstice-enabled meeting rooms, huddle rooms, and transitional spaces without the additional cost or complexity of deploying dedicated signage hardware.</p>
+        <MadCap:snippetBlock src="../Resources/Snippets/info_DigitalSignageIntro.flsnp" />
+        <MadCap:snippetBlock src="../Resources/Snippets/info_DigitalSignageRequirements.flsnp" />
         <p>
-            <img src="../Resources/Images/Templates-sidebarnav-DigSign.png" style="width: 701px;height: 489px;" />
+            <img src="../Resources/Images/Templates-sidebarnav-DigSign.png" style="width: 90%;height: auto;" />
         </p>
-        <h2>Requirements</h2>
-        <ul>
-            <li>Solstice Pods with Enterprise Edition Licenses</li>
-            <li>Solstice version 3.4 or later (both Pods and Dashboard)</li>
-            <li>Source URL content must be compatible with Android Webview.<ul style="list-style-type: circle;"><li>As a note, Chrome browser and Android Webview are similar in many ways, but Android Webview will lack some advanced browser features and behaves best with less resource-intensive feeds.</li><li>Test your URL in Solstice and verify that it is playing well on a single display before rolling out to other Solstice Pods and/or leaving signage enabled on the Pod.</li></ul><li>The following signage content sources are supported:</li><ul style="list-style-type: circle;"><li>https://digitalsignage.mersive.com</li><li>Appspace feeds</li><li>Carousel Digital Signage feeds</li><li>Google Slides + Sites</li><li>Screenfeed</li><li>Static images such as custom web-based welcome screens</li></ul><p class="note">Certain individual feeds, even from these sources, may not work with Solstice. If the URL you are attempting to run is resource intensive, stability and performance can be negatively affected. However, Solstice version 4.4 and later will cache up to 1GB of content. </p></li>
-        </ul>
-        <h2>Layout Options</h2>
-        <p>Some signage layout modes will render the source content in an HTML IFrame. The Solstice Platform supports three layout options: Full Screen, Footer Only, and Footer + Sidebar. The digital signage source content is rendered differently depending on your layout choice. </p>
-        <table style="width: 100%;mc-table-style: url('../Resources/TableStylesheets/Alternate-Row-Color.css');" class="TableStyle-Alternate-Row-Color" cellspacing="21">
-            <col class="TableStyle-Alternate-Row-Color-Column-Column1" />
-            <col class="TableStyle-Alternate-Row-Color-Column-Column1" />
-            <col class="TableStyle-Alternate-Row-Color-Column-Column1" />
-            <tbody>
-                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
-                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1" style="font-weight: bold;">Mode</td>
-                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1" style="font-weight: bold;">Description</td>
-                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column1-Body1" style="font-weight: bold;">Notes</td>
-                </tr>
-                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
-                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2">Full Screen</td>
-                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body2">Signage content is displayed in full screen mode on the Solstice display. No Solstice connection information is shown — users must know Solstice display name in order to connect. </td>
-                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column1-Body2">Source URL is rendered as a full-screen web page.</td>
-                </tr>
-                <tr class="TableStyle-Alternate-Row-Color-Body-Body1">
-                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1">Footer Only</td>
-                    <td class="TableStyle-Alternate-Row-Color-BodyE-Column1-Body1">Only the Solstice welcome screen footer that displays connection information is shown over the signage content. </td>
-                    <td class="TableStyle-Alternate-Row-Color-BodyD-Column1-Body1">Source URL is rendered within an IFrame, so content must be embedded in an IFrame within the website used for the source URL.</td>
-                </tr>
-                <tr class="TableStyle-Alternate-Row-Color-Body-Body2">
-                    <td class="TableStyle-Alternate-Row-Color-BodyB-Column1-Body2">Footer +&#160;Side</td>
-                    <td class="TableStyle-Alternate-Row-Color-BodyB-Column1-Body2">The Solstice welcome screen footer and overlay instructions are shown on top of digital signage to provide users with full connection instructions and/or room calendar information. </td>
-                    <td class="TableStyle-Alternate-Row-Color-BodyA-Column1-Body2">Source URL is rendered within an IFrame, so content must be embedded in an IFrame within the website used for the source URL.</td>
-                </tr>
-            </tbody>
-        </table>
         <h2>How To</h2>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
@@ -51,7 +17,7 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <ol>
-                    <li>From the Solstice Cloud Home page, in the left sidebar navigation panel,  click <b>Manage</b> &gt; <b>Templates</b> &gt;  <b>Digital Signage</b>.</li>
+                    <li>In Solstice Cloud, go to the left sidebar navigation panel and click <b>Manage</b> &gt; <b>Templates</b> &gt;  <b>Digital Signage</b>.</li>
                 </ol>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
@@ -65,7 +31,7 @@
                     <li>Enter the <b>Template Name</b>. For example, you could name the template by location (London Office) or descriptively (Mountain Theme). </li>
                     <li>Click <b>Save.</b></li>
                 </ol>
-                <p class="tip"> You can also start by duplicating an existing template and making changes to it. Click on the three dots on the right side of the template you want to start with, and choose <b>Duplicate Template</b>.</p>
+                <p class="tip"> You can also start by duplicating an existing template and making changes to it. Click on the three dots to the far right of the name of the template you want to start with, then choose <b>Duplicate Template</b>.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>

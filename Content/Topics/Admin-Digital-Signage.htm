@@ -6,8 +6,8 @@
     </head>
     <body>
         <h1>Digital Signage Settings</h1>
-        <p>Solstice’s digital signage feature gives you the ability to extend HTML-based signage to Solstice displays when they are not being used for wireless collaboration. This feature allows you to add signage feeds to your Solstice-enabled meeting rooms, huddle rooms, and transitional spaces without the additional cost or complexity of deploying dedicated signage hardware.</p>
-        <MadCap:snippetBlock src="../Resources/Snippets/DigSignage_reqs.flsnp" />
+        <MadCap:snippetBlock src="../Resources/Snippets/info_DigitalSignageIntro.flsnp" />
+        <MadCap:snippetBlock src="../Resources/Snippets/info_DigitalSignageRequirements.flsnp" />
         <h2>How To </h2>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
@@ -16,19 +16,14 @@
             <MadCap:dropDownBody>
                 <p class="tip">Not all signage feeds are supported by Solstice. Always validate signage playback in a test environment before making it live across your deployment.</p>
                 <ol>
-                    <li>In the Solstice Dashboard, select the display from the list of Your Solstice Instances.</li>
+                    <li>In Solstice Dashboard, select the Pod display from the list of Your Solstice Instances.</li>
                     <li>Go to the <b>Digital Signage</b> tab.</li>
-                    <li>Select <b>Enable</b>.</li>
-                    <li>Choose a signage mode from the list of options:</li>
-                    <ul>
-                        <li><b>Full Screen</b>: Signage content is displayed in full screen mode on the Solstice display. No Solstice connection information is shown — users must know Solstice display name in order to connect.</li>
-                        <li><b>Footer Only</b>: Only the Solstice welcome screen footer is shown over the signage content. Users that are familiar with Solstice will be able to see the Solstice display name and/or IP address in the footer area in order to connect and share content (requires the source URL to be viewable within an iFrame).</li>
-                        <li><b>Footer + Overlay</b>: The Solstice welcome screen footer and overlay instructions are shown on top of digital signage to provide users with full connection instructions and/or room calendar information.</li>
-                    </ul>
+                    <li>Select the <b>Enable</b> checkbox to interact with the digital signage settings.</li>
+                    <li>Choose a digital signage display mode from the list of options:</li>
+                    <MadCap:snippetBlock src="../Resources/Snippets/info_DigitalSignageDisplayModesUList.flsnp" />
                     <li>In the <b>Source URL</b> field, enter the source URL of the digital signage feed or web content you’d like to display between Solstice sessions.</li>
                     <li>In the <b>Start After</b> field, select the amount of time you want the digital signage feed to start playing after. </li>
-                    <li>Click <b>Apply</b>. A pop-up confirmation window appears.</li>
-                    <li>Click <b>Yes</b>.</li>
+                    <li>Click <b>Apply</b> and confirm changes if prompted.</li>
                 </ol>
                 <p class="note">Some signage providers require you to register your signage endpoints. Please refer to your signage content providers instructions to complete this process as needed.</p>
             </MadCap:dropDownBody>
@@ -38,18 +33,17 @@
                 <MadCap:dropDownHotspot>How to Integrate an Appspace Digital Signage Feed</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>To play an Appspace digital signage feed, the Solstice Pod must have internet access. The Solstice Pod will need to be connected to a display monitor in order to complete the device registration in Appspace. See <a href="Integration-Appspace-Digital-Signage.htm">Solstice +&#160;Appspace Digital Signage</a> for more information.  </p>
-                <MadCap:snippetBlock src="../Resources/Snippets/integrate_appspace.flsnp" />
+                <p>To play an Appspace digital signage feed, the Solstice Pod must have internet access. The Pod must also be connected to a display monitor to complete the device registration in Appspace. See the <a href="Integration-Appspace-Digital-Signage.htm">Solstice +&#160;Appspace Digital Signage Integration page</a> for more information.  </p>
+                <MadCap:snippetBlock src="../Resources/Snippets/howto_IntegrateDigSignAppspace.flsnp" />
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>How to Integrate a Carousel Digital Signage Feed</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
-            <p>To play a Carousel Digital Signage feed, the Solstice Pod must have internet access. The Solstice Pod will need to be connected to a display monitor in order to complete the device registration in Carousel Cloud. See <a href="Integration-Carousel-Digital-Signage.htm">Solstice +&#160;Carousel Digital Signage</a> for more information.  </p>
+            <p>To play a Carousel Digital Signage feed, the Solstice Pod must have internet access. The Pod also needs to be connected to a display monitor to complete the device registration in Carousel Cloud. See the <a href="Integration-Carousel-Digital-Signage.htm">Solstice +&#160;Carousel Digital Signage Integration page</a> for more information.  </p>
             <MadCap:dropDownBody>
-                <MadCap:snippetBlock src="../Resources/Snippets/CarouselDigSignage.flsnp" />
-                <p class="tip">For more information on Carousel Cloud and its digital signage capabilities, or more in-depth information on registering a player within Carousel Cloud, see the Carousel Cloud documentation. </p>
+                <MadCap:snippetBlock src="../Resources/Snippets/howto_IntegrateDigSignCarousel.flsnp" />
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -60,7 +54,7 @@
                 <ol>
                     <li>Physically go to the location of the Solstice Pod where you enabled signage.</li>
                     <li>Confirm the signage feed is visible.</li>
-                    <li>Connect to the Pod and share a piece of content.</li>
+                    <li>Connect to the Pod with Solstice Conference and share a piece of content.</li>
                     <li>Disconnect and confirm the signage feed automatically reappears, plays the entire feed, and restarts the feed from the beginning.</li>
                 </ol>
             </MadCap:dropDownBody>
@@ -70,7 +64,7 @@
                 <MadCap:dropDownHotspot>Exit Digital Signage Mode</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>If you need to exit digital signage mode in order to access the Pod's local configuration panel, you can do so by plugging a USB&#160;mouse into the Pod, then long-clicking with the left mouse button. </p>
+                <p>If you need to exit digital signage mode in order to access the Pod's local configuration panel, you can do so by plugging a USB&#160;mouse into the Pod and long-clicking with the left mouse button. </p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <p>&#160;</p>

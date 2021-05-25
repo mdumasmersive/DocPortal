@@ -5,15 +5,12 @@
     <body>
         <ol>
             <li>Select the <b>Enable Digital Signage</b> checkbox. This activates the other options. </li>
-            <li>In the <b>Source URL</b> field, enter in the URL&#160;of the digital signage feed or source content. </li>
-            <li>In the <b>Start After</b> drop-down, select the amount of time you want the digital signage feed to start playing after. </li>
-            <li>To the right of the thumbnail preview, select the mode you want the digital signage feed to play in. The thumbnail preview will demonstrate a preview of how the digital signage feed will appear on the Solstice display. </li>
-            <ul>
-                <li><b>Full Screen</b>: Signage content is displayed full screen on the Solstice display. No Solstice connection information is shown — users must know Solstice display name or&#160;IP&#160;address in order to connect.</li>
-                <li><b>Footer Only</b>: Only the Welcome Screen footer is shown over the signage content. Users that are familiar with Solstice will be able to see the Solstice display name and/or IP address in the footer in order to connect and share content (requires the source URL to be viewable within an iFrame).</li>
-                <li><b>Footer + Overlay</b>: The Welcome Screen footer and overlay instructions are shown on top of digital signage to provide users with connection instructions and/or room calendar information.</li>
-            </ul>
+            <li>In the <b>Source URL</b> field, enter the URL&#160;of the digital signage feed or source content. </li>
+            <li>In <b>Start After</b>, select the amount of time after which you want the digital signage feed to start playing. </li>
+            <li>To the right of the thumbnail preview, select a digital signage display mode. The thumbnail preview will demonstrate a preview of how the digital signage feed will appear on the Solstice display. </li>
+            <MadCap:snippetBlock src="info_DigitalSignageDisplayModesUList.flsnp" />
             <li>Click <b>Save</b>. </li>
         </ol>
+        <p class="note">Some signage providers require you to register your signage endpoints. Please refer to your signage content providers instructions to complete this process as needed.</p>
     </body>
 </html>
