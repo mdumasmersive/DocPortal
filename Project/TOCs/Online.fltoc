@@ -130,6 +130,9 @@
           Title="Digital Signage "
           Link="/Content/Topics/Cloud-Template-Digital-Signage.htm"></TocEntry>
         <TocEntry
+          Title="Room Intelligence"
+          Link="/Content/Topics/Cloud-Template-Room-Intelligence.htm" />
+        <TocEntry
           Title="Message Center "
           Link="/Content/Topics/Cloud-Template-Message-Center.htm"></TocEntry>
         <TocEntry
@@ -330,6 +333,9 @@
       <TocEntry
         Title="Carousel Digital Signage"
         Link="/Content/Topics/Integration-Carousel-Digital-Signage.htm" />
+      <TocEntry
+        Title="22MILES Digital Signage"
+        Link="/Content/Topics/Integration-22Miles-Digital-Signage.htm" />
     </TocEntry>
     <TocEntry
       Title="OpenControl API"
