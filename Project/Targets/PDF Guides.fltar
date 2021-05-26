@@ -9,7 +9,7 @@
   ConditionTagExpression="include[Default.PrintOnly], exclude[Default.Exclude or Default.Future or Default.ScreenOnly]"
   PatchHeadingLevels="true"
   GetLatestBeforeCompile="false"
-  MasterToc="/Project/TOCs/Solstice Conference Checklist.fltoc"
+  MasterToc="/Project/TOCs/Solstice Conference Supported Peripherals.fltoc"
   OutputFolder="C:\Users\mdumas\Documents\Documentation"
   InjectBookHeadings="true">
   <PrintedOutput
