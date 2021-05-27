@@ -6,7 +6,7 @@
         <p>For example, to display all the data for all the Pods being managed by Solstice Cloud:</p>
         <ol>
             <li>In the Filter by Category section, if you have a filter set, click <b>Clear all filters</b>.</li>
-            <li>In the Search field, if you have entered search criteria, clear it by clicking the <img src="../Images/AnalyticsSearchClearX.png" />.</li>
+            <li>In the Search field, if you have entered search criteria, clear it by clicking the <img src="../Images/i_XCircle-Clear.png" />.</li>
             <li>Click the <b>Manage Columns</b> selector, and select all the check-boxes.</li>
             <li>At the bottom of the Displays table, click <b>Export to CSV</b>.</li>
         </ol>
